@@ -31,7 +31,7 @@ with tab2:
    st.markdown(read_markdown_file("intermediate_python.md"))
 
 with tab3:
-   st.header("Advance")
+   st.header("Advanced")
    st.markdown(read_markdown_file("advanced_python.md"))
 
 
@@ -43,7 +43,7 @@ if "openai_model" not in st.session_state:
 # Initialize chat history
 if "messages" not in st.session_state:
     st.session_state.messages = []
-    st.session_state.messages= [{"role": "assistant", "content" : """Hi! I am your Python Programming instructor. To get started, please share your level of experience with the Python. Choose from the following options: Beginner, Intermediate, or Advanced."""}]
+    st.session_state.messages= [{"role": "assistant", "content" : """Hi! I am your Python Programming instructor. To get started, please share your level of experience with Python. Choose from the following options: Beginner, Intermediate, or Advanced."""}]
 
 # Display chat messages from history on app rerun
 for message in st.session_state.messages:
