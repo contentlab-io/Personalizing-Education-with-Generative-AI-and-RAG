@@ -20,7 +20,7 @@ st.title('Personalized Python Tutor')
 
 st.markdown("""Welcome to this e-learning course on Python programming! This course is designed for learners of all levels. Whether you're just starting out or want to master advanced concepts, our adaptive system will tailor lessons and quizzes to your needs.""")
 
-tab1, tab2, tab3 = st.tabs(["Beginner", "Intermediate", "Advance"])
+tab1, tab2, tab3 = st.tabs(["Beginner", "Intermediate", "Advanced"])
 
 with tab1:
    st.header("Beginner")
